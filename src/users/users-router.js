@@ -10,8 +10,15 @@ usersRouter
 
     res.status(200).json(Queue.getAll(users));
         
-  });
+  })
 
+  .patch((req, res, next) => {
+
+    users.enqueue(users.dequeue());
+
+    res.status(200).json(Queue.getAll(users));
+
+  });
 
 
 
