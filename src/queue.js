@@ -53,7 +53,6 @@ function getAll(queue) {
   let all = [];
   let node = queue.first;
   all.push(node.value);
-  all[0].adoptable = true;
   node = node.next;
   while (node) {
     all.push(node.value);

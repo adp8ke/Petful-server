@@ -14,7 +14,7 @@ dogs.enqueue({
 });
 
 dogs.enqueue({
-  id: 2,
+  id: 5,
   imageURL:'https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/45166059/1/?bust=1570696061&width=720', 
   imageDescription: 'A smiling pit bull mix',
   name: 'Bella',
@@ -26,7 +26,7 @@ dogs.enqueue({
 
 
 dogs.enqueue({
-  id: 3,
+  id: 6,
   imageURL:'https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/45490923/1/?bust=1570696081&width=720', 
   imageDescription: 'Medium Sized playful gal',
   name: 'China',
