@@ -23,7 +23,7 @@ If you’re the sort of person who likes a working example, you can see [the wor
 ```
 As a pet lover, I want to go to the FIFO pet adoption site so that I can get more information about the adoption process
 
-Accesptance criteria
+Acceptance criteria
 
 When I type the url of the FIFO adoption agency on my browser
 
@@ -38,11 +38,11 @@ A button indicating that I can start the adoption process
 ```
 As a user interested in adopting pets, I want to get more information on the pet so that I can make an informed decision
 
-Accesptance criteria
+Acceptance criteria
 
 When I go to the adoption page 
 
-I am provided the imformation of pet such as:
+I am provided the information of pet such as:
 * an image of the pet;
 * a physical description of the pet;
 * its name, sex, age, and breed; and
@@ -55,7 +55,7 @@ I am provided the imformation of pet such as:
 As a user interested in adopting pets, I want to have a way to clearly see the pet(s) that I can adopt 
 so that I am not distracted by other pets that are not on the line for adoption
 
-Accesptance criteria
+Acceptance criteria
 
 When I go to the adoption page I should be able to only see the pet that is next in line to be adopted. 
 If there are other pets in line I could see them but I should not be able to adopt them other than the one next in line to be adopted.
@@ -65,7 +65,7 @@ If there are other pets in line I could see them but I should not be able to ado
 ```
 As a user interested in adopting pets, I want to know where I am on line so I know how long I have to wait
 
-Accesptance criteria
+Acceptance criteria
 
 When I go to the adoption page, I should be able to see my place in line and anyone else who is on the line before me.
 I should not be able to start the adoption process unless its my turn. 
@@ -77,7 +77,7 @@ I should not be able to start the adoption process unless its my turn.
 As a user interested in adopting pets, I want to be able to see the pets that are being adopted by other pet lovers and removed from the shelter 
 so that I know that the pet I am interested in may no longer be available for adoption
 
-Accesptance criteria
+Acceptance criteria
 
 When I go to the adoption page, 
 
@@ -160,11 +160,11 @@ Your app should be able to show us the cat or dog that has been in the shelter t
 
 #### Other requirements
 
-* Use a Queue data struture that is implemented with either a singly linked list or doubly linked list.
+* Use a Queue data structure that is implemented with either a singly linked list or doubly linked list.
 * Deploy your server using Zeit
 * Deploy your client using heroku
 * Test the functionality of your code often! Make incremental changes and see that they're working in the browser before you move on. 
-* Apply the same approach to accessibility. Resolve any accesibility warnings your linter generates, and run aXe when you write new markup and styles. 
+* Apply the same approach to accessibility. Resolve any accessibility warnings your linter generates, and run aXe when you write new markup and styles. 
 
 #### Deploy your server
 
