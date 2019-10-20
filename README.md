@@ -14,19 +14,19 @@ This app helps lonely fur babies find their furever homes. This app utilizes a q
 ## API Documentation
 
 `/api/dogs`
-  - GET - GET request to recieve an array of available dogs in a queue format
+  - GET - GET request to receive an array of available dogs in a queue format
   - DELETE - DELETE request to remove the adopted pet and queue them into the adopted queue
 
 `/api/cats`
-  - GET - GET request to recieve an array of available cats in a queue format
+  - GET - GET request to receive an array of available cats in a queue format
   - DELETE - DELETE request to remove the adopted pet and queue them into the adopted queue
 
 `/api/adopted`
-  - GET - GET request to recieve an array of adopted pets in a queue format
+  - GET - GET request to receive an array of adopted pets in a queue format
 
 `/api/users`
-  - GET - GET request to recieve an array of users in a queue format
-  - PATCH - PATCH request to remove the current user and palce them to the end of the user queue
+  - GET - GET request to receive an array of users in a queue format
+  - PATCH - PATCH request to remove the current user and place them to the end of the user queue
 
 ## Tech Stack:
 - HTML
